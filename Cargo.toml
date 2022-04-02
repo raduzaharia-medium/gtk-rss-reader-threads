@@ -1,0 +1,14 @@
+[package]
+name = "gtk-rss-reader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libadwaita = "*"
+gtk4 = "*"
+glib = "*"
+rss = "*"
+curio = "*"
+
+[build-dependencies]
+libadwaita = "*"
